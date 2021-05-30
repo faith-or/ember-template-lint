@@ -28,6 +28,7 @@ generateRuleTests({
     '<img src="{{url}}" alt={{picture}}>',
     '<img src="https://www.blah.com/item/{{item}}" alt="{{item}}">',
     '<img src="https://www.blah.com/item/{{item}}" alt="blah of {{item}}">',
+    '<img src={{level.src}} alt="{{concat "Photo of car with index" index}}" />',
     '<img alt="" role="none">',
     '<img alt="" role="presentation">',
 
